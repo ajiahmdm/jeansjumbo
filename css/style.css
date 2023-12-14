@@ -1,0 +1,64 @@
+/* ===================================
+    Google font
+====================================== */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700');
+
+.container{
+    background-color: black;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panah{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.medsos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 991px){
+
+    .contain img{
+        max-width: 900px;
+    }
+    .panah img{
+        max-width: 900px;
+    }
+    .footer img{
+        max-width: 900px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    .contain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contain img{
+        max-width: 380px;
+        
+    }
+    .panah img{
+        max-width: 380px;
+    }
+    .footer img{
+        max-width: 380px;
+        
+    }
+}
