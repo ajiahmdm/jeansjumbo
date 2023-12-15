@@ -7,7 +7,40 @@
 .container{
     background-color: black;
 }
-.contain{
+.contain1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.contain1 .btn_diskon {
+    position: absolute;
+}
+.btn_diskon{
+    margin-bottom: 30px;
+    bottom: 0;
+}
+.contain2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain6{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +64,22 @@
 
 @media screen and (max-width: 991px){
 
-    .contain img{
+    .contain1 img{
+        max-width: 900px;
+    }
+    .contain2 img{
+        max-width: 900px;
+    }
+    .contain3 img{
+        max-width: 900px;
+    }
+    .contain4 img{
+        max-width: 900px;
+    }
+    .contain5 img{
+        max-width: 900px;
+    }
+    .contain6 img{
         max-width: 900px;
     }
     .panah img{
@@ -50,7 +98,27 @@
         align-items: center;
         justify-content: center;
     }
-    .contain img{
+    .contain1 img{
+        max-width: 380px;
+        
+    }
+    .contain2 img{
+        max-width: 380px;
+        
+    }
+    .contain3 img{
+        max-width: 380px;
+        
+    }
+    .contain4 img{
+        max-width: 380px;
+        
+    }
+    .contain5 img{
+        max-width: 380px;
+        
+    }
+    .contain6 img{
         max-width: 380px;
         
     }
