@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1569388/public_html/varotex.id/varotexlandingeng
+    - export DEPLOYPATH=/home/puty1694/public_html/jeansjumbo
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
