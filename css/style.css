@@ -11,9 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
-.contain1 .btn_diskon {
+.contain3a .btn_diskon {
     position: absolute;
 }
 .btn_diskon{
@@ -29,6 +28,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+.contain3a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.contain3b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .contain4{
     display: flex;
@@ -73,6 +85,12 @@
     .contain3 img{
         max-width: 900px;
     }
+    .contain3a img{
+        max-width: 900px;
+    }
+    .contain3b img{
+        max-width: 900px;
+    }
     .contain4 img{
         max-width: 900px;
     }
@@ -107,6 +125,14 @@
         
     }
     .contain3 img{
+        max-width: 380px;
+        
+    }
+    .contain3a img{
+        max-width: 380px;
+        
+    }
+    .contain3b img{
         max-width: 380px;
         
     }
