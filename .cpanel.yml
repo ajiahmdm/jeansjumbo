@@ -3,5 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/puty1694/public_html/jeansjumbo
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp sender.js $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
+    
