@@ -1,26 +1,3 @@
-/*
-const form = document.querySelector('#form')
-
-form.addEventListener("submit", (e) => {
-    e.preventDefault()
-
-    var text1 = document.querySelector("#text1").value
-    var text2 = document.querySelector("#text2").value
-
-    var my_text = 'Pesanan Dari:%0A - Text1: ${text1} %0A - Text2: ${text2}'
-
-    var chat_id = 6931807566
-    var url = 'https://api.telegram.org/bot6931807566:AAFCX387aeegRpQP9nO-m9pzfrnkE0OdoIk/sendMessage?chat_id=${chat_id}&text=${my_text}'
-
-    let api = new XMLHttpRequest()
-    api.open("GET", url, true)
-    api.send()
-
-    
-
-
-})
-*/
 //bot token
 var telegram_bot_id = "6931807566:AAFCX387aeegRpQP9nO-m9pzfrnkE0OdoIk";
 //chat id
