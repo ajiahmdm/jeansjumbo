@@ -29,7 +29,7 @@ var u_name, email, message;
 var ready = function () {
     u_name = document.getElementById("name").value;
     email = document.getElementById("email").value;
-    message = "Name: " + u_name + "\nNo WA: " + email;
+    message = "Jeans Jumbo \n \nName: " + u_name + "\nNo WA: " + email;
 };
 var sender = function () {
     ready();
